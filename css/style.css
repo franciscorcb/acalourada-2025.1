@@ -555,7 +555,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# Intro Section
+# carrosel
 --------------------------------------------------------------*/
 #intro-2 {
   width: 100%;
@@ -902,6 +902,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     opacity: 0;
   }
 }
+
 /*--------------------------------------------------------------
 # Banner Section
 --------------------------------------------------------------*/
@@ -1141,7 +1142,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .schedule-item .speaker img {
   height: 100%;
-  width: 90%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   margin-left: 50%;
@@ -1191,15 +1191,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 40px;
 }
 .faq-whatsapp{
-  background: #381460;
-  color:white;
+  text-decoration: none;
+  background: #ffffff;
+  width: 150px;
+  font-weight: 510;
+  color:rgb(3, 10, 62);
+  border-color: rgb(3, 10, 62);
+  border-width: 2px;
+  border-style: solid;
 }
 
 .faq-whatsapp:hover{
-  text-decoration: none ;
-  background: none;
-  color: #51A2A6;
-  border-color: #51A2A6;
+  width: 150px;
+  font-weight: 510;
+  background: rgb(3, 10, 62);
+  color: #ffffff;
+  border-color: rgb(3, 10, 62);
 
 }
 
@@ -1234,7 +1241,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #supporters {
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 #supporters .supporters-wrap {
@@ -1625,14 +1632,14 @@ td, th {
 --------------------------------------------------------------*/
 
 #footer {
-  background: rgb(3, 10, 62);
+  background: rgb(0, 95, 204);
   padding: 0 0 10px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: rgb(0, 95, 204);
+  background: rgb(3, 10, 62);
   padding: 5px 15px 5px 15px;
 }
 
@@ -1672,7 +1679,7 @@ td, th {
   font-size: 18px;
     display: inline-block;
     background: #fff;
-    color: rgb(3, 10, 62);
+    color: rgb(1, 7, 53);
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -1684,7 +1691,7 @@ td, th {
 }
 
 #footer .footer-top .social-links a:hover {
-  background:rgb(3, 10, 62);
+  background:rgb(1, 6, 46);
   color:  #fff;
 }
 
@@ -1810,9 +1817,9 @@ td, th {
   }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 990px) {
   #schedule .sub-heading {
-    width: 75%;
+    width: 70%;
   }
 }
 
@@ -1844,7 +1851,7 @@ td, th {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 990px) {
   #header {
 
     background: white;
@@ -1867,7 +1874,7 @@ td, th {
   }
 
   #intro{
-    background-image: url(../img/image_intro_mobile.png);
+    background-image: url(../img/carrosel/foto-carrosel1.JPEG);
   }
 
   #intro h1 {
