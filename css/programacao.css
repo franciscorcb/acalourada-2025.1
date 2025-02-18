@@ -1,0 +1,63 @@
+
+#schedule .schedule-item {
+  border-bottom: 1px solid #cad4f6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background-color ease-in-out 0.3s;
+
+  & time {
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+  
+}
+
+#schedule .info:hover {
+  background-color: #fff;
+}
+
+
+#schedule .info{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin: 0 10px 10px 0;
+
+    & time {
+        padding-top: 25px;
+        padding-bottom: 5px;
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    & img {
+        max-width: 150px;  
+        max-height: 150px; 
+        width: auto;       
+        height: auto;
+        object-fit: contain;
+    }
+    & h4{
+        font-style: italic;
+        color: #19328e;
+        font-weight: normal;
+        font-size: 16px;
+    }
+    & p {
+        font-style: italic;
+        color: #152b79;
+        margin-bottom: 0;
+    }
+
+}
+
+
+
+.schedule-subtitle {
+  font-size: 25px;
+  font-weight: 500;
+  color: #51a2a6;
+}
