@@ -26,7 +26,7 @@
 
     <div class="copyright">
 
-        <strong>Acalourada 2024.2 - PETCOMP</strong>
+        <strong>Acalourada 2025.1 - PETCOMP</strong>
 
     </div>
 
