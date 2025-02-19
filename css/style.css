@@ -1114,6 +1114,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: ease-in-out .2s;
 }
 
+
 /*--------------------------------------------------------------
 # Materials Section
 --------------------------------------------------------------*/
@@ -1944,4 +1945,3 @@ td, th {
   .swiper-pagination-bullet {
     background-color: #fff;
   }
-
