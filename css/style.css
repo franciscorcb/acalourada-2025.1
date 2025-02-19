@@ -50,6 +50,7 @@
 }
 
 #img-esq {
+  padding-top: 15px;
   width: 30%;
 }
 
@@ -62,12 +63,13 @@
 }
 
 #img-dir {
-  width: 27%;
+  padding-top: 15px;
+  width: 30%;
 }
 
 body {
   background: #fff;
-  color: #2f3138;
+  color: #000000;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -76,14 +78,14 @@ body#body{
 }
 
 a {
-  color: rgb(3, 10, 62);
+  color: rgb(0, 101, 216);
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #8155BA;
+  color: rgb(255, 255, 255);
   outline: none;
   text-decoration: none;
 }
@@ -175,7 +177,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: rgb(3, 10, 62);
+  background: rgb(0, 183, 255);
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1114,7 +1116,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: ease-in-out .2s;
 }
 
-
 /*--------------------------------------------------------------
 # Materials Section
 --------------------------------------------------------------*/
@@ -1560,7 +1561,7 @@ td, th {
 }
 
 .btn-subscription-text {
-  color: #fff;
+  color: rgb(3, 10, 62);
   font-family: 'Raleway';
   font-size: 16px;
   text-decoration: none;
@@ -1792,10 +1793,9 @@ td, th {
 
 @media (max-width: 990px) {
   #header {
-
     background: white;
     height: 70px;
-    padding: 15px 0;
+    padding: 10px 0;
     transition: all 0.5s;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   }
@@ -1829,14 +1829,6 @@ td, th {
   }
 }
 
-.schedule-day-title{
-  padding-top: 15px;
-  display: flex;
-  justify-content: center;
-  font-family: "Raleway", sans-serif;
-  color: #1B100A;
-  font-weight: 600;
-}
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
