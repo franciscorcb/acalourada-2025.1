@@ -74,7 +74,6 @@ require_once('header.php');
         </div>
     </section>
 
-
     <!--====================
             Organização
         ======================-->
@@ -85,8 +84,6 @@ require_once('header.php');
                 <h2>Organização</h2>
             </div>
 
-
-
             <div class="row no-gutters supporters-wrap clearfix">
 
                 <div class="col-lg-2 col-md-4 col-xs-6">
@@ -96,7 +93,6 @@ require_once('header.php');
                         </a>
                     </div>
                 </div>
-
 
                 <div class="col-lg-2 col-md-4 col-xs-6">
                     <div class="supporter-logo">
@@ -109,7 +105,7 @@ require_once('header.php');
                 <div class="col-lg-2 col-md-4 col-xs-6">
                     <div class="supporter-logo">
                         <a href="https://petcompufma.org/" target="_blank">
-                            <img src="img/supporters/4.png" class="img-fluid" alt="">
+                            <img src="img/supporters/5.png" class="img-fluid" alt="">
                         </a>
                     </div>
                 </div>
