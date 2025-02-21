@@ -20,7 +20,7 @@ require_once('header.php');
 
             <!-- Schdule Day 1 -->
             <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-                <h2 class="schedule-day-title">Dia xx</h2>
+                <h2 class="schedule-day-title">Dia 14</h2>
                 <h3 class="schedule-day-title">MANHÃ</h3>
                 
                 <div class="infos">
@@ -72,7 +72,7 @@ require_once('header.php');
 
                  <!-- Schdule Day 2 -->
 
-                <h2 class="schedule-day-title">Dia 12</h2>
+                <h2 class="schedule-day-title">Dia 15</h2>
                 <h3 class="schedule-day-title">MANHÃ</h3>
 
                 <div class="infos">
@@ -125,7 +125,7 @@ require_once('header.php');
 
 
                  <!-- Schdule Day 3  -->
-                 <h2 class="schedule-day-title">Dia 13</h2>
+                 <h2 class="schedule-day-title">Dia 16</h2>
                 <h3 class="schedule-day-title">MANHÃ</h3>
                
                 <div class="infos">
