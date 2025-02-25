@@ -28,7 +28,7 @@ require_once('header.php');
             <div id="intro" class="carousel-item item-2">
                 <div class="intro-container wow fadeIn">
                     <h1 class="mb-4 pb-0">Acalourada de<br> Ciência da Computação<br>PETCOMP - UFMA<br> </h1>
-                    <p class="mb-4 pb-0">Está perdido? Veja algumas dicas!</p>
+                    <p class="mb-4 pb-0">Está perdido?<br>Veja algumas dicas!</p>
 
                     <a href="https://youtu.be/hPt2zWgXKiQ" class="venobox play-btn mb-4 vbox-item" data-vbtype="video" data-autoplay="true"></a>
                 </div>
@@ -85,7 +85,6 @@ require_once('header.php');
             </div>
 
             <div class="row no-gutters supporters-wrap clearfix">
-
                 <div class="col-lg-2 col-md-4 col-xs-6">
                     <div class="supporter-logo">
                         <a href="https://portais.ufma.br/PortalUfma/index.jsf" target="_blank">

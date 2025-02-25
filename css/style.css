@@ -460,11 +460,18 @@ h6 {
 }
 
 #mobile-nav-toggle i {
+  padding-top: 1px;
+  padding-bottom: 2px;
   color: rgb(0, 5, 44);
+  background-color: white;
+  justify-content: center;
+  right: 22px;
+  width: 27px;
+  border-radius: 50%;
 }
 
 #mobile-nav-toggle i:hover {
-  color: rgb(13, 79, 201);
+  color: rgb(0, 5, 44);
 }
 
 /* Mobile Nav Styling */
@@ -586,7 +593,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: absolute;
   bottom: 0;
   left: 0;
-  top: 90px;
+  top: 50px;
   right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -770,7 +777,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #8155ba;
+  color: #5578ba;
 }
 
 #intro p {
@@ -782,10 +789,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(
-    rgb(3, 10, 62) 50%,
-    rgba(101, 111, 150, 0.15) 52%
-  );
+  background: radial-gradient(rgb(3, 10, 62) 50%,rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -858,7 +862,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro .about-btn {
   font-family: "Raleway", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
@@ -928,7 +932,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/imagem_fundo_sobre.jpg");
+  background: url("../img/imagem_fundo_sobre2.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1188,8 +1192,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #supporters .supporters-wrap {
-  border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
   margin-bottom: 30px;
   justify-content: center;
 }
@@ -1207,8 +1209,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  border-top: 1px solid #e0e5fa;
   border-right: 1px solid #e0e5fa;
   border-bottom: 1px solid #e0e5fa;
+  border-left: 1px solid #e0e5fa;;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
   height: 160px;
@@ -1223,25 +1227,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: scale(1.2);
 }
 
-@media (max-width:990px){
-  #supporters .supporter-logo img {
-    padding: 30px;
-    max-width: 100%; 
-    height: auto;
-  }
-}
-
-@media (max-width:767px){
-
-  #supporters .supporter-logo{
-    padding: 30px;
-    max-width: 70%; 
-    height: auto;
-  }
-  #supporters .supporters-wrap{
-    justify-content: center;
-  }
-}
 /*--------------------------------------------------------------
 # Orientacoes Section
 --------------------------------------------------------------*/
@@ -1758,31 +1743,12 @@ th {
 }
 
 /*--------------------------------------------------------------
-# Responsive Media Queries
+# RESPONSIVIDADE
 --------------------------------------------------------------*/
 
 @media (min-width: 767px) {
   #subscribe input {
     min-width: 400px;
-  }
-}
-
-@media (min-width: 768px) {
-  #contact .contact-address,
-  #contact .contact-phone,
-  #contact .contact-email {
-    padding: 20px 0;
-  }
-
-  #contact .contact-phone {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-  }
-}
-
-@media (min-width: 990px) {
-  #schedule .sub-heading {
-    width: 70%;
   }
 }
 
@@ -1839,19 +1805,45 @@ th {
   }
 
   #intro h1 {
-    font-size: 34px;
+    font-size: 30px;
   }
 
   #intro p {
     font-size: 16px;
   }
 
+  #intro-2 h1{
+    font-size: 35px;
+  }
   #schedule .nav-tabs a {
     padding: 8px 30px;
+  }
+  #schedule .sub-heading {
+    width: 70%;
+  }
+  #supporters .supporter-logo img {
+    padding: 30px;
+    max-width: 100%; 
+    height: auto;
   }
 }
 
 @media (max-width: 768px) {
+  #subscribe input {
+    min-width: 400px;
+  }
+
+  #schedule .nav-tabs a {
+    padding: 8px 50px;
+  }
+  
+  #supporters .supporter-logo{
+    padding: 30px;
+    max-width: 50%; 
+    height: auto;
+    justify-content: center;
+    margin: 0 auto;
+  }
   .back-to-top {
     bottom: 15px;
   }
@@ -1863,17 +1855,37 @@ th {
   #faq #faq-list i {
     top: 13px;
   }
-}
 
-@media (max-width: 767px) {
-  #schedule .nav-tabs a {
-    padding: 8px 50px;
+  #contact .contact-address,
+  #contact .contact-phone,
+  #contact .contact-email {
+    padding: 20px 0;
   }
+
+  #contact .contact-phone {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+
 }
 
 @media (max-width: 574px) {
   #venue .venue-info h3 {
     font-size: 24px;
+  }
+  #intro h1 {
+    font-size: 25px;
+  }
+
+  #intro p {
+    font-size: 16px;
+  }
+
+  #intro-2 h1{
+    font-size: 30px;
+  }
+  #intro-2 p{
+    font-size: 18px;
   }
 }
 
@@ -1889,6 +1901,50 @@ th {
   }
 }
 
+@media (max-width:450px){
+  #supporters .section-header h2 {
+    font-size: 30px; 
+  }
+  #supporters .supporter-logo{
+    padding: 15px;
+    max-width: 50%; 
+    height: auto;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:350px){
+  
+  #about h2{
+    font-size: 30px;
+  }
+  #about p {
+    font-size: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  #supporters .supporter-logo{
+    max-width: 70%; 
+    height: auto;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  #intro h1 {
+    font-size: 20px;
+  }
+
+  #intro p {
+    font-size: 15px;
+  }
+
+  #intro-2 h1{
+    font-size: 25px;
+  }
+  #intro-2 p{
+    font-size: 14px;
+  }
+}
 .map-responsive {
   overflow: hidden;
   display: flex;
