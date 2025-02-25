@@ -17,17 +17,20 @@
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <li><a href="index.php">Home</a></li>
-                    <!-- <li class="menu"><a href="inscricoes.php">Inscrições</a></li> -->
+                    <li class="menu"><a href="inscricoes.php">Inscrições</a></li>
                     <li><a href="programacao.php">Programação</a></li>
                     <li><a href="localizacao.php">Localização</a></li>
                     <li><a href="materiais.php">Guias</a></li>
                     <li><a href="faq.php">FAQ</a></li>
                     <li><a href="registros.php">Registros</a></li>
-                    <!--<li class="dropdown">
+
+                    <li class="dropdown">
                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown"
                             role="button" aria-haspopup="true" aria-expanded="false">Versões</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="index.php">2024.2</a>
+                            <a class="dropdown-item" href="index.php">2025.1</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="2024.2/index.php">2024.2</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="2024.1/index.php">2024.1</a>
                             <div class="dropdown-divider"></div>
@@ -46,7 +49,7 @@
                             <a class="dropdown-item" href="2020.2/index.php">2020.2</a>
                         </div>
                         </a>
-                    </li>-->
+                    </li>
                 </ul>
             </nav>
             <!-- #nav-menu-container -->
